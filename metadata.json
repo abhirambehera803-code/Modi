@@ -1,0 +1,6 @@
+{
+  "name": "Mission Delhi: The Funny Journey",
+  "description": "A fun, family-friendly 2D cartoon parody runner and adventure game featuring hilarious missions, power-ups, and colorful locations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

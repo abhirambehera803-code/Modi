@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  h1, h2, h3, .font-cartoon {
+    font-family: 'Fredoka', cursive, sans-serif;
+  }
+}
+
+/* Custom 3D Cartoon Button effects */
+.btn-cartoon-orange {
+  background: linear-gradient(180deg, #fb923c 0%, #ea580c 100%);
+  box-shadow: 0 5px 0 #9a3412, 0 8px 12px rgba(0, 0, 0, 0.35);
+  transition: all 0.1s ease;
+}
+
+.btn-cartoon-orange:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #9a3412, 0 3px 6px rgba(0, 0, 0, 0.35);
+}
+
+.btn-cartoon-green {
+  background: linear-gradient(180deg, #4ade80 0%, #16a34a 100%);
+  box-shadow: 0 5px 0 #14532d, 0 8px 12px rgba(0, 0, 0, 0.35);
+  transition: all 0.1s ease;
+}
+
+.btn-cartoon-green:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #14532d, 0 3px 6px rgba(0, 0, 0, 0.35);
+}
+
+.btn-cartoon-blue {
+  background: linear-gradient(180deg, #38bdf8 0%, #0284c7 100%);
+  box-shadow: 0 5px 0 #075985, 0 8px 12px rgba(0, 0, 0, 0.35);
+  transition: all 0.1s ease;
+}
+
+.btn-cartoon-blue:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #075985, 0 3px 6px rgba(0, 0, 0, 0.35);
+}
+
+.btn-cartoon-amber {
+  background: linear-gradient(180deg, #fde047 0%, #ca8a04 100%);
+  box-shadow: 0 5px 0 #854d0e, 0 8px 12px rgba(0, 0, 0, 0.35);
+  transition: all 0.1s ease;
+}
+
+.btn-cartoon-amber:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #854d0e, 0 3px 6px rgba(0, 0, 0, 0.35);
+}
+
+.text-stroke {
+  -webkit-text-stroke: 2px #78350f;
+  paint-order: stroke fill;
+}
+
+.text-stroke-thick {
+  -webkit-text-stroke: 4px #451a03;
+  paint-order: stroke fill;
+}
+
+.text-stroke-blue {
+  -webkit-text-stroke: 3px #0c4a6e;
+  paint-order: stroke fill;
+}
